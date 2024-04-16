@@ -26,9 +26,8 @@ jobs:
         run: npm run build
 
       - name: List dist files
-        run: ls 
-      - name: check dist files
-        run: cd dist
+        run: ls && cd dist && ls
+
   # deploy:
   #   needs: build
   #   runs-on: ubuntu-latest
