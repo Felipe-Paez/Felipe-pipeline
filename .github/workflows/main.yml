@@ -29,6 +29,6 @@ jobs:
         run: ls && cd dist && ls 
       
       - name: List dist files
-        run: cd && aws -v
+        run: cd && aws --version
 
    
