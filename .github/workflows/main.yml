@@ -27,7 +27,8 @@ jobs:
 
       - name: List dist files
         run: ls 
-
+      - name: check dist files
+        run: cd dist
   # deploy:
   #   needs: build
   #   runs-on: ubuntu-latest
