@@ -27,9 +27,6 @@ jobs:
 
       - name: List dist files
         run: ls && cd dist && ls 
-
-      - name: aws check
-        run: aws configure
       
       - name: Configure AWS CLI
         run: |
